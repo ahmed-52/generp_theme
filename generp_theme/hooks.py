@@ -6,4 +6,4 @@ app_email = "ahmedalgaithie@gmail.com"
 app_license = "MIT"
 
 
-app_include_css = ["/assets/generp_theme/css/workspace.css"]
+app_include_css = "/assets/generp_theme/css/workspace.css"
