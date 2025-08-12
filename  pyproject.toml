@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generp_theme"
+version = "0.0.1"
+description = "Custom Desk/Workspace styling for ERPNext"
+authors = [{ name = "Ahmed", email = "ahmedalgaithie@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"

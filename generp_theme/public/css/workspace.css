@@ -1,0 +1,39 @@
+/* Background of the main desk area */
+.page-container, .layout-main-section {
+  background: #f7f8fb !important;
+}
+
+/* Make workspace shortcuts look like big buttons/tiles */
+.workspace .shortcut,
+.workspace .shortcut-link,
+.workspace .link-item {
+  min-width: 180px;
+  min-height: 120px;
+  border-radius: 16px;
+  padding: 16px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Icon + label sizing */
+.workspace .shortcut .icon,
+.workspace .link-item .icon { font-size: 28px; }
+
+.workspace .shortcut .label,
+.workspace .link-item .label {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+/* Hover feedback */
+.workspace .shortcut:hover,
+.workspace .link-item:hover {
+  transform: translateY(-1px);
+  transition: .15s ease;
+}
