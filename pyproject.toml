@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "generp_theme"
 version = "0.0.1"
-description = "Custom Desk theme"
-authors = [{ name = "You", email = "you@example.com" }]
+description = "generp_theme"
+authors = [{ name = "Ahmed", email = "ahmed@gmail.com" }]
 license = { text = "MIT" }
 readme = "README.md"
